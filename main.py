@@ -2,7 +2,7 @@ import csv
 import sys
 
 from csv import DictReader
-# open file in read mode
+# receive file from the terminal as an argument
 file_name = sys.argv[1]
 if '19' in file_name:
     output = 'june_19.csv'
